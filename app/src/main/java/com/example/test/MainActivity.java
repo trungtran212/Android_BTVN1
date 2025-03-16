@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         EditText inputB = findViewById(R.id.inputB);
         EditText inputC = findViewById(R.id.inputC);
         Button btnSolve = findViewById(R.id.btnSolve);
-//        TextView result = findViewById(R.id.result);
 
         btnSolve.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     private String solveQuadraticEquation(double a, double b, double c) {
